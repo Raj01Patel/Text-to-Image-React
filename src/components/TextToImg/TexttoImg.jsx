@@ -47,7 +47,7 @@ const TextToImg = () => {
         <div className="main-container">
             <div className="input-container">
                 <div>
-                    <h1>AI Image Generator</h1>
+                    <h1 style={{fontSize:"25px"}}>AI Image Generator</h1>
                 </div>
                 <span>
                     <input
