@@ -29,7 +29,12 @@ const TextToImg = () => {
     }
 
     const handleClick = () => {
-        fetchData();
+        if(text !== ""){
+            fetchData();
+        }
+        else{
+            alert("Add Input")
+        }
     };
 
     return (
@@ -45,7 +50,7 @@ const TextToImg = () => {
                         value={text}
                         onChange={(e) => setText(e.target.value)}
                     />
-                    <button onClick={handleClick}>
+                    <button style={{border:"1px solid black", padding:"5px", borderRadius:"5px"}} onClick={handleClick}>
                         Submit
                     </button>
                 </span>

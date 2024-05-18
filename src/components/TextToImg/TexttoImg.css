@@ -23,6 +23,9 @@
 .input-container input{
     margin-top: 10px;
     height: 25px;
+    border: 1px solid black;
+    margin-right: 5px;
+    border-radius: 5px;
 }
 
 .img-container{
@@ -31,4 +34,5 @@
 
 .img-container img{
     border-radius: 10px;
+    margin: auto;
 }
